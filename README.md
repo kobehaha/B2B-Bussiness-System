@@ -6,7 +6,6 @@
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/01.png)
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/02.png)
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/03.png)
-![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/04.png)
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/05.png)
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/06.png)
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/07.png)

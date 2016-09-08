@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [17/Jul/2016:00:18:36 +0800] "GET /search/manager/importall HTTP/1.1" 200 48 http-bio-8083-exec-1 151492
-0:0:0:0:0:0:0:1 - - [17/Jul/2016:00:18:36 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8083-exec-3 4

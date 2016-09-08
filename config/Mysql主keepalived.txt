@@ -1,0 +1,52 @@
+global_defs {
+ 
+notification_email {
+              linwaterbin@gmail.com
+        }
+        notification_email_from bychjzh@gmail.com
+        smtp_server smtp.gmail.com
+        smtp_connect_timeout 30
+        router_id LVS1
+}
+ 
+vrrp_sync_group test {
+group {
+        loadbalance
+}
+}
+ 
+vrrp_instance loadbalance {
+        state MASTER
+        interface eth0
+        lvs_sync_daemon_inteface eth0
+        virtual_router_id 51
+        priority 150
+        advert_int 1
+ 
+authentication {
+        auth_type PASS
+        auth_pass 1111
+}
+ 
+virtual_ipaddress {
+        192.168.254.152
+}
+}
+ 
+virtual_server 192.168.254.152 3306 {
+        delay_loop 6
+        lb_algo rr
+        lb_kind DR
+        persistence_timeout 20
+        protocol TCP
+        sorry_server 192.168.254.142 3306
+        real_server 192.168.254.147 3306 {
+        weight 3
+        TCP_CHECK {
+        connect_timeout 3
+        nb_get_retry 3
+        delay_before_retry 3
+        connect_port 3306
+  }
+  }
+}

@@ -11,3 +11,4 @@ dist
 *.classes
 *.classpath
 out
+*.war

@@ -10,5 +10,6 @@ dist
 .gradle
 *.class
 *.classpath
+classes
 out
 *.war

@@ -1,0 +1,13 @@
+asspath
+.project
+.metadata
+.settings
+build
+bin
+dist
+.DS_Store
+.idea
+*.iml
+.gradle
+classes
+out

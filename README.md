@@ -6,6 +6,8 @@
 
 还扩展了一些拓展的其他方案 其中云计算分析平台正在添加当中 
 
+#部分服务器配置文件在config文件夹下
+
 # 项目介绍 【图片在WebImage中 运行视频在video中】
 
 ![image](https://github.com/kobehaha/b2bBussiness/blob/master/webImage/01.png)

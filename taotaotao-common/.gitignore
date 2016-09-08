@@ -1,0 +1,14 @@
+*.project
+*.metadata
+*.settings
+build
+bin
+dist
+.DS_Store
+.idea
+*.iml
+.gradle
+*.classe
+*.classpath
+out
+*.war

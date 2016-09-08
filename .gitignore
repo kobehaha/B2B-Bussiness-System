@@ -4,11 +4,11 @@
 build
 bin
 dist
-.DS_Store
+*.DS_Store
 .idea
 *.iml
 .gradle
-*.classes
+*.class
 *.classpath
 out
 *.war

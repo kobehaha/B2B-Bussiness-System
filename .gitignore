@@ -1,7 +1,6 @@
-asspath
-.project
-.metadata
-.settings
+*.project
+*.metadata
+*.settings
 build
 bin
 dist
@@ -9,5 +8,6 @@ dist
 .idea
 *.iml
 .gradle
-classes
+*.classes
+*.classpath
 out
